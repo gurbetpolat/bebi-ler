@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 50px;
+    text-shadow: 1px 1px rgb(150, 18, 18);
+    width: 120px;
+    height: 30px;
+    border-radius: 100px;
+
+}
+
+.header a:hover {
+    color: red;
+    text-shadow: 1px 1px black;
+
+}
+
+.ana {
+    margin: 20px;
+    bottom: 50px;
+
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px rgb(150, 18, 18);
+
+}
+
+.kayanresim {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    bottom: 50px;
+    width: 450px;
+    height: 350px;
+    top: 30px;
+    border-radius: 20px;
+
+    padding: 20px;
+    filter: drop-shadow(5px 5px 15px black);
+
+
+}
+
+/* .but{
+    margin: 15px;
+    height: 60px;
+    width: 150px;
+    color: white;
+    background: black;
+    font-size: 16px;
+    font-family: sa;
+   border-radius: 10px ;
+   box-shadow: 3px 3px rgb(150, 18, 18);
+
+
+} */
+
+.ürünler {
+    display: flex;
+    margin: 100px;
+    margin-bottom: 150px;
+
+}
+
+.ürünimg {
+    width: 250px;
+    height: 200px;
+ 
+}
+
+.ürünbutton {
+    margin-top: 20px;
+
+    height: 30px;
+    width: 100px;
+    color: white;
+    background: black;
+    font-size: 16px;
+    font-family: sa;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(150, 18, 18);
+
+}
+
+.ürün,
+p {
+    text-align: center;
+
+}
+
+.baslıkürün {
+    margin:70px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
